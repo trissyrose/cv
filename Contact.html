@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="dark" name="color-scheme">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me! :D</title>
+</head>
+<body>
+    <h1>Please feel free to contact me via:</h1>
+    <ul>
+        <li>E-Mail: taguglia@asu.edu</li>
+        <li>Phone: (620) 454-2255</li>
+    </ul>
+    <hr size="4" color="blue">
+    <form action="mailto:taguglia@asu.edu" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName">
+        <br><label>Your Email:</label>
+        <input type="email" name="yourEmail">
+        <fieldset name="yourGender">
+            <legend>Gender:</legend>
+            <input type="checkbox" name="Male" id="Gender">
+            <label for="Male">Male</label>
+            <br>
+
+            <input type="checkbox" name="Female" id="Gender">
+            <label for="Female">Female</label>
+            <br>
+
+            <input type="checkbox" name="Non-Binary" id="Gender">
+            <label for="Non-Binary">Non-Binary</label>
+            <br>
+
+            <input type="checkbox" name="Choose Not to Answer" id="Gender">
+            <label for="Choose Not to Answer">Choose Not to Answer</label>
+        </fieldset>
+        <label>Your Message:</label><br>
+        <br><textarea name="yourMessage"></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
+
